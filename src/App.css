@@ -1,0 +1,572 @@
+* {
+    margin: 0;
+}
+
+/* navbar */
+
+.logo {
+    width: 50px;
+}
+
+.navbar {
+    width: 100%;
+    height: 50px;
+    background: #bcb09f;
+}
+
+.navigation {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    font-size: 25px;
+}
+
+.navbar a:hover {
+    font-size: 30px;
+}
+
+.toggleButton {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.toggleButton svg {
+    font-size: 50px;
+}
+
+.toggleButton button {
+    margin-right: 20px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+#open {
+    height: 100vh;
+}
+
+#open .navigation {
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 100px;
+}
+
+#open a {
+    width: 100%;
+    text-align: center;
+}
+
+@media only screen and (max-width: 900px) {
+    .navbar a {
+        width: 70px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .toggleButton {
+        display: flex;
+    }
+
+    #close a {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .toggleButton {
+        display: none;
+    }
+
+    .hiddenLinks {
+        display: none;
+    }
+
+    #open {
+        height: 100px;
+    }
+
+    #open .links {
+        flex-direction: row;
+    }
+}
+
+/* billede */
+.billede {
+    width: 100%;
+    z-index: 0;
+}
+
+.multi {
+    position: absolute;
+    color: white;
+    font-size: x-large;
+    padding-left: 460px;
+    z-index: 10;
+    transform: translateY(-330px);
+}
+
+.overskrift {
+    position: absolute;
+    color: white;
+    font-size: 60px;
+    padding-left: 300px;
+    z-index: 10;
+    transform: translateY(-300px);
+}
+
+.ommig {
+    position: absolute;
+    color: white;
+    font-size: 70px;
+    padding-left: 440px;
+    z-index: 10;
+    transform: translateY(-500px);
+}
+
+.kontaktmig {
+    position: absolute;
+    color: white;
+    font-size: 70px;
+    padding-left: 370px;
+    z-index: 10;
+    transform: translateY(-500px);
+}
+
+.projekter {
+    position: absolute;
+    color: white;
+    font-size: 70px;
+    padding-left: 290px;
+    z-index: 10;
+    transform: translateY(-500px);
+}
+
+
+/* indhold */
+
+/* Hjem side */
+
+.tekst {
+    width: 35%;
+    margin: 100px 0px 0px 50%;
+    font-size: x-large;
+}
+
+.tekst1 {
+    width: 35%;
+    margin: 20px 0px 0px 50%;
+    font-size: x-large;
+
+}
+
+.photo {
+    width: 20%;
+    margin: 100px 0px 0px 20%;
+    float: left;
+    border-radius: 20px;
+    color: #888787;
+}
+
+.programmer {
+    text-align: center;
+    color: #888787;
+}
+
+.hvorfor {
+    text-align: center;
+    width: 60%;
+    margin-left: 20%;
+    font-size: larger;
+    color: #888787;
+}
+
+.kompetencer {
+    float: left;
+    text-align: center;
+    width: 10%;
+    font-size: 80px;
+    color: #72a7e5;
+}
+
+.align {
+    margin: 50px 25% 200px 25%;
+    width: 100%;
+}
+
+.overskrift1 {
+    text-align: center;
+    padding: 50px 0px 50px 0px;
+    font-size: xx-large;
+}
+
+.boks {
+    width: 20%;
+    padding: 2%;
+    background-color: #bcb09f;
+    border-radius: 15px;
+    float: left;
+    margin-left: 7%;
+    margin-bottom: 50px;
+    font-size: large;
+}
+
+.navn {
+    margin-top: 10px;
+}
+
+
+/* Kontakt side */
+
+.h2 {
+    margin: 50px 15% 100px 20%;
+    font-size: x-large;
+    float: left;
+}
+
+/* Email formular */
+
+form {
+    background-color: #bcb09f;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 40px;
+    width: 30%;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+form label {
+    color: white;
+    padding: 5px 0px;
+}
+
+form h3 {
+    color: white;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+form input,
+form textarea {
+    border: 0;
+    margin: 10px 0;
+    padding: 20px;
+    outline: none;
+    background-color: #f9f8f7;
+}
+
+.send {
+    padding: 15px;
+    background-color: #888787;
+    color: white;
+    font-size: 16px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    width: 150px;
+    margin: 20px auto 0;
+    border-radius: 30px;
+}
+
+/* Portfolio side */
+
+.projects {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.projects .projectTitle {
+    text-align: center;
+    color: #3e497a;
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+.projectList {
+    width: 70vw;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+}
+
+/* MENU ITEM STYLING */
+
+.projectItem {
+    border-radius: 15px;
+    width: 300px;
+    height: 300px;
+    margin: 40px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.projectItem:hover {
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+    transition: 0.3s ease-in;
+    cursor: pointer;
+}
+
+.projectItem .bgImage {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.projectItem h1 {
+    font-size: 25px;
+    padding: 0 20px;
+}
+
+@media only screen and (max-width: 1300px) {
+    .projectList {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .projectList {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .projectList {
+        width: 100%;
+    }
+
+    .projectItem {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+.baggrund-display {
+    width: 100%;
+    background-color: #bcb09f;
+}
+
+/* PortfolioDisplay side */
+.project {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.project h1 {
+    margin-top: 50px;
+    font-size: 35px;
+}
+
+.project img {
+    width: 50%;
+    border-radius: 10px;
+}
+
+.project p {
+    font-size: 25px;
+    text-align: center;
+    width: 40%;
+    margin: 10px 0;
+}
+
+.project svg {
+    font-size: 60px;
+    color: #5b7da3;
+}
+
+.project svg:hover {
+    font-size: 80px;
+}
+
+.koden {
+    text-align: center;
+}
+
+
+/* footer */
+
+.footer {
+    padding: 50px 0px 50px 200px;
+    font-size: large;
+    background-color: #bcb09f;
+    color: white;
+    margin-top: 50px;
+}
+
+.kontakt {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.af {
+    float: right;
+    transform: translateX(-200px);
+    margin-top: -25px;
+}
+
+.linkedin {
+    font-size: 30px;
+    color: #888787;
+}
+
+
+
+@media only screen and (max-width:800px) {
+
+    /* navbar */
+
+
+    /* billede */
+
+    .navbar {
+        height: 100px;
+    }
+
+    .multi {
+        font-size: 15px;
+        padding-left: 80px;
+        transform: translateY(-130px);
+    }
+
+    .overskrift {
+        font-size: 20px;
+        padding-left: 50px;
+        transform: translateY(-100px);
+    }
+
+    .overskrift1 {
+        font-size: x-large;
+    }
+
+    .ommig {
+        font-size: 25px;
+        padding-left: 100px;
+        z-index: 10;
+        transform: translateY(-60px);
+    }
+    
+    .kontaktmig {
+        font-size: 25px;
+        padding-left: 70px;
+        z-index: 10;
+        transform: translateY(-60px);
+    }
+    
+    .projekter {
+        font-size: 25px;
+        padding-left: 40px;
+        z-index: 10;
+        transform: translateY(-60px);
+    }
+
+    /* om mig side */
+    .tekst {
+        width: 90%;
+        margin-left: 5%;
+        font-size: large;
+    }
+
+    .tekst1 {
+        width: 90%;
+        margin-left: 5%;
+        font-size: large;
+    }
+
+    .photo {
+        width: 70%;
+        margin: 50px 15% 20px 15%;
+    }
+
+    .programmer {
+        font-size: medium;
+    }
+
+    .align {
+        display: flex;
+        flex-direction: column;
+        margin: 50px 40% 50px 40%;
+    }
+
+    .hvorfor {
+        text-align: center;
+        width: 90%;
+        margin-left: 5%;
+        font-size: large;
+        color: #888787;
+    }
+
+    .boks {
+        width: 80%;
+        padding: 2%;
+        align-items: center;
+    }
+
+    .navn {
+        margin-top: 10px;
+    }
+
+    /* kontakt */
+
+    .h2 {
+        align-items: center;
+        font-size: large;
+    }
+
+    /* Email formular */
+
+    form {
+        width: 60%;
+        margin-left: 10%;
+    }
+
+
+    .project p {
+        font-size: 20px;
+        width: 80%;
+    }
+
+    .project img {
+        width: 80%;
+    }
+
+    /* footer */
+
+    .footer {
+        text-align: center;
+        padding: 50px 0px;
+    }
+
+    .af {
+        display: none;
+    }
+
+    .linkedin {
+        align-items: center;
+    }
+}
+
+
