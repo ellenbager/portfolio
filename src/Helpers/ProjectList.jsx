@@ -3,8 +3,24 @@ import Proj2 from "../assets/proj2.png";
 import Proj3 from "../assets/proj3.png";
 import Proj4 from "../assets/proj4.png";
 import Proj5 from "../assets/proj5.png";
+import Proj6 from "../assets/proj6.png";
+import Proj7 from "../assets/proj7.png";
 
 export const ProjectList = [
+  {
+    name: "3. semester eksamen. Advanced frontend",
+    image: Proj7,
+    story: "I dette projekt skulle vi lave en hjemmeside ved brug af advarnced frontend. Vi valgte i gruppen at tilføje funktioner til Kristian F. Møller's hjemmeside, vi har derfor prøvet kræfter med at lave tilføjelser til en hjemmeside i et allerede eksisterende design i dette projekt.",
+    skills: "Jeg var bl.a med til at skabe det visuelle indhold og programmere. Vi udviklede den digitale fortælling ved brug af react.",
+    url: "https://github.com/RexxMK/af_kfm"
+  },
+  {
+    name: "3. semester eksamen. Web-app",
+    image: Proj6,
+    story: "I dette projekt skulle vi lave en web app, vi valgte i vores gruppe at lave en søvn app, som vi kaldte for sleeper.",
+    skills: "Jeg var bl.a med til at skabe det visuelle indhold og programmere. Vi udviklede den digitale fortælling ved brug af react.",
+    url: "https://github.com/sofiehyllen/web-app"
+  },
   {
     name: "Webdocumentar om Johan Søe",
     image: Proj1,

@@ -32,7 +32,7 @@ export default function Hjem() {
                 funktionelle og smukke hjemmesider, samtidig med at jeg bevarer mine rødder på landet og mine nære forhold til familie og venner.
             </p>
             <h2 className="overskrift1">Programmer jeg ofte bruger</h2>
-            <p className="programmer">Her er 5 programmer jeg ofte bruger, og øver mig på at blive bedre i. <br /> 
+            <p className="programmer">Her er 5 teknologier jeg ofte bruger, og øver mig på at blive bedre i. <br /> 
             Jeg har blandt andet brugt dem til at udarbejde dette portfolio.</p>
             <div className="align">
                 <h2 className="kompetencer"><TbBrandHtml5/></h2>
@@ -85,13 +85,40 @@ export default function Hjem() {
             <div className="experience">
                 <h2 className="overskrift1">Tidslinje</h2>
                 <VerticalTimeline lineColor="#888787">
+                <VerticalTimelineElement className="vertical-timeline-element--education"
+                    iconStyle={{background: '#888787', color: '#fff'}}
+                    icon={<FaGraduationCap/>}
+                    date="August 2022 - Nuværende">
+                        <h3>Multimediedesigner</h3>
+                        <p>I 2022 startede jeg på multimediedesign uddannelsen. Jeg går nu på 3. semester med fokus på frontend </p>
+
+                    </VerticalTimelineElement>
+
                     <VerticalTimelineElement className="vertical-timeline-element--education"
                     iconStyle={{background: '#888787', color: '#fff'}}
                     icon={<MdWork/>}
-                    date="Juni 2015 - Oktober 2019">
-                        <h3>Servicemedarbejder</h3>
-                        <p>I 2015 Startede jeg i Super Brugsen på samsø, hvor jeg blandt 
-                            andet sad ved kassen, satte varer på plads og andre småting</p>
+                    date="Maj 2021 - August 2022">
+                        <h3>Pædagogmedhjælper</h3>
+                        <p>I 2021 startede jeg som pædagogmedhjælper i Rumlepotten på Samsø </p>
+
+                    </VerticalTimelineElement>
+
+                    <VerticalTimelineElement className="vertical-timeline-element--education"
+                    iconStyle={{background: '#888787', color: '#fff'}}
+                    icon={<MdWork/>}
+                    date="Juni 2020 - Juli 2021">
+                        <h3>Delikatessemedarbejder</h3>
+                        <p>I 2020 startede jeg mit første sabbatår. Jeg startede igen 
+                            i Super Brugsen på Samsø, denne gang var jeg hovedsageligt i slagter afdelingen, som delikatessemedarbejder </p>
+
+                    </VerticalTimelineElement>
+
+                    <VerticalTimelineElement className="vertical-timeline-element--education"
+                    iconStyle={{background: '#888787', color: '#fff'}}
+                    icon={<FaGraduationCap/>}
+                    date="August 2018 - Juni 2020">
+                        <h3>HF</h3>
+                        <p>I 2018 startede jeg på HF, på Grenaa gymnasium. Her havde jeg fagpakken Samfundsfag B, psykologi C, og valgfaget idræt B</p>
 
                     </VerticalTimelineElement>
 
@@ -108,38 +135,11 @@ export default function Hjem() {
 
                     <VerticalTimelineElement className="vertical-timeline-element--education"
                     iconStyle={{background: '#888787', color: '#fff'}}
-                    icon={<FaGraduationCap/>}
-                    date="August 2018 - Juni 2020">
-                        <h3>HF</h3>
-                        <p>I 2018 startede jeg på HF, på Grenaa gymnasium. Her havde jeg fagpakken Samfundsfag B, psykologi C, og valgfaget idræt B</p>
-
-                    </VerticalTimelineElement>
-
-                    <VerticalTimelineElement className="vertical-timeline-element--education"
-                    iconStyle={{background: '#888787', color: '#fff'}}
                     icon={<MdWork/>}
-                    date="Juni 2020 - Juli 2021">
-                        <h3>Delikatessemedarbejder</h3>
-                        <p>I 2020 startede jeg mit første sabbatår. Jeg startede igen 
-                            i Super Brugsen på Samsø, denne gang var jeg hovedsageligt i slagter afdelingen, som delikatessemedarbejder </p>
-
-                    </VerticalTimelineElement>
-
-                    <VerticalTimelineElement className="vertical-timeline-element--education"
-                    iconStyle={{background: '#888787', color: '#fff'}}
-                    icon={<MdWork/>}
-                    date="Maj 2021 - August 2022">
-                        <h3>Pædagogmedhjælper</h3>
-                        <p>I 2021 startede jeg som pædagogmedhjælper i Rumlepotten på Samsø </p>
-
-                    </VerticalTimelineElement>
-
-                    <VerticalTimelineElement className="vertical-timeline-element--education"
-                    iconStyle={{background: '#888787', color: '#fff'}}
-                    icon={<FaGraduationCap/>}
-                    date="August 2022 - Nuværende">
-                        <h3>Multimediedesigner</h3>
-                        <p>I 2022 startede jeg på multimediedesign uddannelsen. Jeg går nu på 3. semester med fokus på frontend </p>
+                    date="Juni 2015 - Oktober 2019">
+                        <h3>Servicemedarbejder</h3>
+                        <p>I 2015 Startede jeg i Super Brugsen på samsø, hvor jeg blandt 
+                            andet sad ved kassen, satte varer på plads og andre småting</p>
 
                     </VerticalTimelineElement>
                 </VerticalTimeline>
