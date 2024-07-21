@@ -1,12 +1,18 @@
 import Proj1 from "../assets/proj1.png";
 import Proj2 from "../assets/proj2.png";
 import Proj3 from "../assets/proj3.png";
-import Proj4 from "../assets/proj4.png";
-import Proj5 from "../assets/proj5.png";
 import Proj6 from "../assets/proj6.png";
 import Proj7 from "../assets/proj7.png";
+import Proj8 from "../assets/proj8.png";
 
 export const ProjectList = [
+  {
+    name: "4. semester eksamen. Samsø Festival",
+    image: Proj8,
+    story: "I dette projekt har jeg designet og udviklet en hjemmeside til Samsø Festival. Jeg fokuserede på at lave en brugervenlig løsning ud for mange forstyrende elementer.",
+    skills: "Hjemmesiden kan findes på linket her: https://samfest.bybager.dk",
+    url: "https://github.com/RexxMK/af_kfm"
+  },
   {
     name: "3. semester eksamen. Advanced frontend",
     image: Proj7,
@@ -41,19 +47,5 @@ export const ProjectList = [
     story: "Til 1. semester eksamen skulle vi individuelt lave en digital løsning som enten skulle henvende sig til en ny målgruppe, og/eller brandet skulle genopfriskes. Vi fik fem produkter vi kunne vælge imellem. Jeg valgte Tuborg Squash", 
     skills: "Jeg udviklede den digitale løsning ved brug af CSS og HTML.",
     url: "https://github.com/ellenbager/tuborgsquash"
-  },
-  {
-    name: "Mobile First",
-    image: Proj4,
-    story: "I dette projekt skulle vi lave vores første responsive webudvikling. Vi valgte i gruppen at lave vores digitale løsning for 'Café Parasollen'",
-    skills: "Vi udviklede den digitale løsning ved brug af CSS og HTML, vi gik ud fra princippet Mobile-first",
-    url: "https://github.com/ellenbager/mobilefirst"
-  },
-  {
-    name: "2. Semester eksamen. Hjælp til hjemløse",
-    image: Proj5,
-    story: "Vi skulle i grupper finde en virksomhed/organisation vi bl.a skulle udvikle en digital løsning for. Vi valgte i gruppen at lave en løsning for 'Hjælp til hjemløse'.", 
-    skills: "Jeg var bl.a med til at researche, derudover stod jeg hovedsageligt for programmeringsdelen, vi udviklede den digitale løsning ved brug af CSS, HTML og Javascript",
-    url: "https://github.com/ellenbager/hjemloese"
-  },
+  }
 ];

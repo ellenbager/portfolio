@@ -20,11 +20,11 @@ export default function Hjem() {
             </div>
             <img src={Photo} alt="" className="photo" />
             <p className="tekst">Hej! <br />
-                Mit navn er Ellen, jeg er 22 år og multimediedesign-studerende med speciale i frontend-udvikling. 
+                Mit navn er Ellen, jeg er 23 år og færdiguddannet multimediedesign i Juni 2024. 
                 Jeg er født og opvokset på en gård på smukke Samsø. Min passion for webudvikling er drevet af den tilfredsstillelse man får af at 
                 knække koden og se ideer blive til virkelighed online.
             </p>
-            <p className="tekst1">Ud over mit studie elsker jeg at tilbringe tid udendørs og udforske den smukke natur omkring mig. 
+            <p className="tekst1">Ud over min passion for webudvikling elsker jeg at tilbringe tid udendørs og udforske den smukke natur omkring mig. 
                 Det er vigtigt for mig, at opretholde en aktiv livsstil og tilbringe tid med venner og familie.
             </p>
             <p className="tekst1">
@@ -87,10 +87,19 @@ export default function Hjem() {
                 <VerticalTimeline lineColor="#888787">
                 <VerticalTimelineElement className="vertical-timeline-element--education"
                     iconStyle={{background: '#888787', color: '#fff'}}
+                    icon={<MdWork/>}
+                    date="Januar 2024 - Marts 2024">
+                        <h3>Praktik</h3>
+                        <p>I 2024 var jeg i praktik hos Glade Rollinger, her var nogle af mine hovedopgaver var at lave optimeringer og strukturering på hjemmesiden, skrive og lave et nyt design på nyhedsbreve og lave content til SoMe, hovedsageligt til Facebook og Instagram. </p>
+
+                    </VerticalTimelineElement>
+
+                <VerticalTimelineElement className="vertical-timeline-element--education"
+                    iconStyle={{background: '#888787', color: '#fff'}}
                     icon={<FaGraduationCap/>}
-                    date="August 2022 - Nuværende">
+                    date="August 2022 - Juni 2024">
                         <h3>Multimediedesigner</h3>
-                        <p>I 2022 startede jeg på multimediedesign uddannelsen. Jeg går nu på 3. semester med fokus på frontend </p>
+                        <p>I 2022 startede jeg på Multimediedesign uddannelsen. I juni 2024 blev jeg færdigudannet og jeg har i løbet af uddannelsen arbejdet med blandt andet webudvikling, grafisk design og Sociale medier </p>
 
                     </VerticalTimelineElement>
 
